@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes"?>
+<noisy-config>
+	<layout>
+		<album-view>
+			<cover-pixel-size>128</cover-pixel-size>
+			<cover-margin>0</cover-margin>
+			<no-image-file>images/nocover1.png</no-image-file>
+			<no-image-file>images/nocover2.png</no-image-file>
+			<no-image-file>images/nocover3.png</no-image-file>
+			<no-image-file>images/nocover4.png</no-image-file>
+			<no-image-file>images/nocover5.png</no-image-file>
+			<no-image-file>images/nocover6.png</no-image-file>
+		</album-view>
+	</layout>
+	<!--<backend>
+		<interface>amarok</interface>
+		<interface-params for="amarok">
+			<database type="mysql">
+				<host>localhost</host>
+				<port />
+				<db-name>amarok</db-name>
+				<db-user>amarok</db-user>
+				<db-password>amarok</db-password>
+			</database>
+		</interface-params>
+	</backend>-->
+		<backend>
+			<interface>dummybackend</interface>
+		</backend>
+		<!--<backend>
+			<interface>rhythmbox</interface>
+			<interface-params for="rhythmbox">
+				<rhythm-db-location>~/.gnome2/rhythmbox/rhythmdb.xml</rhythm-db-location>
+			</interface-params>
+		</backend>-->
+</noisy-config>

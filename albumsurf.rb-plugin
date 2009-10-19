@@ -1,0 +1,9 @@
+[RB Plugin]
+Loader=python
+Module=albumsurf
+IAge=1
+Name=Album Surf
+Description=A flat visualisation of your music collection
+Authors=Mark Kennedy <mark@verynoisy.com>
+Copyright=Copyright © 2009 Mark Kennedy
+Website=http://www.verynoisy.com
