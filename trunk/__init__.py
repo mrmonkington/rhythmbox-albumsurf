@@ -57,6 +57,7 @@ class AlbumSurf( rb.Plugin ):
         manager.remove_action_group(data['action_group'])
         manager.ensure_update()
         
+    # don't know any other way to get reliable stage size
     def on_stage_allocate (self, actor, pspec, stage):
         print "allocate"
         (stage_w, stage_h) = actor.get_size()
